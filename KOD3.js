@@ -18,8 +18,8 @@ function sled_vopr(){
     if(document.getElementById('vopros4').style.display == "block"){
         document.getElementById('vopros4').style.display = "none";
         document.getElementById('vopros5').style.display = "block";
-        document.getElementById('1').src='/images/timer9.png';
-        document.getElementById('2').src='/images/timer1.png';
+        document.getElementById('1').src='images/timer9.png';
+        document.getElementById('2').src='images/timer1.png';
         otv_4 = otv_na_vopr;
         document.getElementById('kn_sl').style.display = "none";
         document.getElementById('kn_pr').style.display = "block";
@@ -27,23 +27,23 @@ function sled_vopr(){
     if(document.getElementById('vopros3').style.display == "block"){
         document.getElementById('vopros3').style.display = "none";
         document.getElementById('vopros4').style.display = "block";
-        document.getElementById('1').src='/images/timer7.png';
-        document.getElementById('2').src='/images/timer8.png';
+        document.getElementById('1').src='images/timer7.png';
+        document.getElementById('2').src='images/timer8.png';
         otv_3 = otv_na_vopr;
     }
 
         if(document.getElementById('vopros2').style.display == "block"){
         document.getElementById('vopros2').style.display = "none";
         document.getElementById('vopros3').style.display = "block";
-        document.getElementById('1').src='/images/timer5.png';
-        document.getElementById('2').src='/images/timer6.png';
+        document.getElementById('1').src='images/timer5.png';
+        document.getElementById('2').src='images/timer6.png';
         otv_2 = otv_na_vopr;
     }
         if(document.getElementById('vopros1').style.display == "block"){
         document.getElementById('vopros1').style.display = "none";
         document.getElementById('vopros2').style.display = "block";
-        document.getElementById('1').src='/images/timer3.png';
-        document.getElementById('2').src='/images/timer4.png';
+        document.getElementById('1').src='images/timer3.png';
+        document.getElementById('2').src='images/timer4.png';
         otv_1 = otv_na_vopr;
     }
 }
