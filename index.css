@@ -87,7 +87,7 @@ box-shadow:0 0 20px #67cc00;
     right: 0; bottom: 0; /* Левый нижний угол */
     padding: 10px;
 }
-body{
+.body{
 background: url("images/lego.jpg") 50% no-repeat;
 background-size: contain;
 }
