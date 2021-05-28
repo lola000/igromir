@@ -1,0 +1,89 @@
+
+@font-face{
+  font-family: "TOLSTYAK Heavy";
+  src: url("/fonts/TOLSH.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family: "Huntsman";
+  src: url("/fonts/Huntsman.otf");
+}
+
+h2,h1{
+  font-family: 'TOLSTYAK Heavy';
+}
+
+header {
+	display: block; /* Для старых браузеров */
+	height: 65px; /* Высота шапки */
+	background: #ffabff;
+	text-align: center;
+}
+
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #ffabff; /* Цвет фона */
+    color: black; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+#logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	background: url('../images/logo.svg') no-repeat;
+	background-size: contain;
+}
+
+
+#CompanyName{
+	font-family: "Huntsman", sans-serif;
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+	font-size: 25px;
+	line-height: 50px;
+	color: black;
+
+}
+
+p, span, input {
+ font-size:30px;
+}
+button{
+    font-size:18px;
+    background-color: #ab3fbc; /* Green */
+    border: 1px solid rgb(74.587, 0, 153);
+    color: white;
+}
+
+button.crug{
+	margin: 0; padding: 0; border: 0; outline: none; background-color: transparent;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	margin: 125px 0 0 125px;
+}
+
+button.cite:hover {
+background: radial-gradient(farthest-side ellipse at top left, white, #c4c2c2);
+}
+
+button.cite:active {
+  background: radial-gradient(farthest-side ellipse at top left, #eb7fff, #c56bd6);
+-moz-box-shadow:0 0 20px #67cc00;
+-webkit-box-shadow:0 0 20px #67cc00;
+box-shadow:0 0 20px #67cc00;
+}
+
+#footer-social-menu {
+    text-align: right;
+    color: #006;
+    position: fixed; /* Фиксированное положение */
+    right: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px;
+}

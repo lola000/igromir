@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Игромир</title>
+	<link rel="stylesheet" href="/str1.css">
+	<script type="text/javascript" src="KOD.js"></script>
+</head>
+<body>
+	<header>
+		<div id="headerInside">
+			<div id="logo"></div>
+			<div id="CompanyName">Игромир</div>
+		</div>
+
+	</header>
+	<body background="/images/lego.jpg">
+<div style="margin-left: auto;margin-right: auto;width: 600px;text-align:center;">
+<H1><span id="tema" style="font-size: 60px;">Веселая математика</span></H1>
+<button style="position: absolute;top: 300px;left: 100px;" onClick="document.location.reload(true)"><h1>Начать сначала</h1></button>
+<div id="vopros1" style="display:block;">
+<p>Какой математический знак нужно поставить вместо знака вопроса?</p>
+<p style="FONT-SIZE: 60px; color: #1fadac;" >2 ? 3 = 5</p>
+</div>
+<div id="vopros2" style="display:none;">
+<p>Какой математический знак нужно поставить вместо знака вопроса?</p>
+<p style="FONT-SIZE: 60px; color: #1fadac;" >9 ? 3 = 6</p>
+</div>
+<div id="vopros3" style="display:none;">
+<p>Какой математический знак нужно поставить вместо знака вопроса?</p>
+<p style="FONT-SIZE: 60px; color: #1fadac;">2 ? 2 = 4</p>
+</div>
+<div id="vopros4" style="display:none;">
+<p>Какой математический знак нужно поставить вместо знака вопроса?</p>
+<p style="FONT-SIZE: 60px; color: #1fadac;">8 ? 1 = 9</p>
+</div>
+<div id="vopros5" style="display:none;">
+<p>Какой математический знак нужно поставить вместо знака вопроса?</p>
+<p style="FONT-SIZE: 60px; color: #1fadac;">10 ? 6 = 4</p>
+</div>
+<div id="vopros6" style="display:none;">
+<p>Какой математический знак нужно поставить вместо знака вопроса?</p>
+<p style="FONT-SIZE: 60px; color: #1fadac;">5 ? 4 = 9</p>
+</div>
+<div id="vopros7" style="display:none;">
+<p>Какой математический знак нужно поставить вместо знака вопроса?</p>
+<p style="FONT-SIZE: 60px; color: #1fadac;">9 ? 4 = 5</p>
+</div>
+<p id="var">Варианты ответов:</p>
+<button id="minus" class="cite" style="margin: 10px;" onclick="znakmin();"> <img alt="минус" src="/images/minus.png" width="100" height="100"></button>
+<button id="plus" class="cite" style="margin: 10px;" onclick="znakpl();"> <img alt="плюс" src="/images/plus.png" width="100" height="100"></button>
+<button id="kn_sl" onclick="sled_vopr();" style="font-size: 12px; margin: 40px 0 30px 210px; display:block; align: center;"><h1>Следующий вопрос</h1></button>
+<button id="kn_pr" style="display:none; margin: 40px 0 30px 230px;" onclick="proverit()"> <h1>Проверить </h1></button>
+
+<div id="rezultat" style="font-size: 25px; background-color: #00ff9e;"></div>
+</div>
+	<footer>
+		<a href="index.html"><h2>Обратно на главную</h2></a>
+		<div id="footer-social-menu">
+		© 2021
+		<b>Антонова Светлана</b>
+		</div>
+	</footer>
+</body>
+</html>
