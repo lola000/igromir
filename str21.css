@@ -1,13 +1,13 @@
 
 @font-face{
   font-family: "TOLSTYAK Heavy";
-  src: url("/fonts/TOLSH.ttf");
+  src: url("fonts/TOLSH.ttf");
   font-style: normal;
   font-weight: normal;
 }
 @font-face{
   font-family: "Huntsman";
-  src: url("/fonts/Huntsman.otf");
+  src: url("fonts/Huntsman.otf");
 }
 
 h2,h1{
@@ -36,7 +36,7 @@ footer {
   margin-top: 5px;
   margin-left: 5px;
   float: left;
-  background: url('../images/logo.svg') no-repeat;
+  background: url('images/logo.svg') no-repeat;
   background-size: contain;
 }
 
