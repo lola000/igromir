@@ -93,8 +93,8 @@ p, span, input {
 }
 
 .front-face{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   padding: 2px;
   position: absolute;
   border-radius: 2px;
@@ -103,8 +103,8 @@ p, span, input {
 }
 
 .back-face{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   padding: 2px;
   position: absolute;
   border-radius: 2px;
