@@ -129,7 +129,7 @@ body {
   margin: 40px 0 5px;
   padding: 25px 0 5px;
   text-align: center;
-  background: white;
+  background: #ffabff;
 }
 .menu-main li {display: inline-block;}
 .menu-main li:after {
