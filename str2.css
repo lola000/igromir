@@ -115,20 +115,7 @@ p, span, input {
 .front-face{
   transform: rotateY(180deg);
 }
-button{
-  background-color: #ab3fbc; /* Green */
-    border: 1px solid rgb(74.587, 0, 153);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    width: 450px;
-    display: block;
 
-}
 body {   
 /* Местоположение фоновой картинки */   background-image: url("images/lego.jpg");      
 /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
