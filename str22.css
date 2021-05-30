@@ -65,8 +65,8 @@ p, span, input {
 
 
 .memory-game{
-  width: 650px;
-  height: 700px;
+  width: 550px;
+  height: 600px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
