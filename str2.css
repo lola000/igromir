@@ -19,10 +19,8 @@ header {
   height: 65px; /* Высота шапки */
   background: #ffabff;
   text-align: center;
-  z-index:1;
 }
-#tema{
-  z-index:2;}
+
 footer {
     position: fixed; /* Фиксированное положение */
     left: 0; bottom: 0; /* Левый нижний угол */
